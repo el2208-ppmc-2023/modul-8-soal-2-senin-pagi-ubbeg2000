@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "matriks1.txt",
+      "output": "1 1 0 1 1 \r\n0 1 1 1 0 \r\n0 1 1 1 0 \r\n1 1 1 1 0 \r\n1 0 0 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 0 0 0 \r\n0 1 1 1 0 \r\n0 1 1 1 0 \r\n0 1 1 1 0 \r\n0 0 0 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks2.txt",
+      "output": "1 1 0 0 1 \r\n0 1 0 1 1 \r\n0 1 1 1 0 \r\n0 0 0 1 0 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 0 0 0 \r\n0 1 0 0 0 \r\n0 1 1 1 0 \r\n0 0 0 1 0 \r\n0 0 0 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks3.txt",
+      "output": "1 1 1 0 0 \r\n1 0 1 1 1 \r\n1 1 1 0 0 \r\n0 0 1 1 0 \r\n0 1 0 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 1 0 0 \r\n1 0 1 0 0 \r\n1 1 1 0 0 \r\n0 0 1 1 0 \r\n0 0 0 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks4.txt",
+      "output": "1 1 0 0 1 \r\n0 1 0 0 1 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 0 0 0 \r\n0 1 0 0 0 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n0 1 1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks5.txt",
+      "output": "1 0 0 0 0 \r\n1 1 0 0 1 \r\n0 1 1 1 0 \r\n1 1 0 1 0 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 0 0 0 0 \r\n1 1 0 0 0 \r\n0 1 1 1 0 \r\n1 1 0 1 0 \r\n1 1 1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks6.txt",
+      "output": "1 0 0 0 1 \r\n1 1 0 0 1 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 0 0 0 0 \r\n1 1 0 0 0 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n0 1 1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks7.txt",
+      "output": "1 1 1 1 1 \r\n0 1 0 0 1 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 0 0 0 \r\n0 1 0 0 0 \r\n0 1 1 1 0 \r\n0 1 0 1 0 \r\n0 1 1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "matriks8.txt",
+      "output": "1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\nMatriks hasil blok jalan yang tidak terpakai:\r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1 \r\n1 1 1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    }
+  ]
+}
